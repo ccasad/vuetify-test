@@ -10,9 +10,6 @@
           v-model="selectedStates"
           :items="states"
           label="States"
-          density="compact"
-          multiple
-          hide-details
           class="mt-2"
         ></v-select>
       </v-col>
