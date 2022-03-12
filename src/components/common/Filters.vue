@@ -7,7 +7,9 @@
   >
     <v-container fluid class="mt-1">
       <v-row v-if="states" class="mt-2">
-        <v-col>    
+        <v-col class="text-left">
+          This v-select is supposed to show the states when you 
+          click on it, but nothing is displayed.<br/>
           <v-select
             v-model="selectedStates"
             :items="states"
@@ -15,6 +17,7 @@
             density="compact"
             multiple
             hide-details
+            class="mt-2"
           ></v-select>
         </v-col>
       </v-row>
